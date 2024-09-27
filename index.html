@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Création de Site Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jeu de Création de Site Web en HTML5</h1>
+    </header>
+    <main>
+        <section id="qcm">
+            <h2>Répondez aux questions du client</h2>
+            <div id="question-container">
+                <!-- La question s'affichera ici -->
+            </div>
+            <div id="choices-container">
+                <!-- Les choix de réponses apparaîtront ici -->
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Question suivante</button>
+        </section>
+
+        <section id="preview">
+            <h2>Aperçu du site web généré</h2>
+            <iframe id="preview-frame"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>Créé par [Ton nom]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
